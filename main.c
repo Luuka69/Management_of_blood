@@ -16,7 +16,7 @@ int main()
 	printf("\n Error adding");
 	}
         
-    x=modify("btc.txt","34647836",b2 );
+    x=modify("btc.txt","34647836", b2 );
 
     if(x==1)
 	{
@@ -42,7 +42,7 @@ int main()
 
     if(strcmp(b3.Id, "")==0)
 	{
-        printf("Not found");
+        printf("\n Not found");
 	}
 
     return 0;

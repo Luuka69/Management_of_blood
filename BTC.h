@@ -17,9 +17,9 @@ typedef struct
 } btc;
 
 int add(char *filename, btc b );
-int modify( char *filename, char a, btc nouv );
-int Delete(char *filename, char a );
-btc search(char *filename, char a );
+int modify( char *filename, char a[], btc nouv );
+int Delete(char *filename, char a[] );
+btc search(char *filename, char a[] );
 int isAllNonDigits(const char *str);
 int is_numeric(const char *chaine);
 

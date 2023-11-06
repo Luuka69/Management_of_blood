@@ -40,7 +40,7 @@ int add(char * filename, btc b )
     }
     else return 0;
 }
-int modify( char * filename, char id, btc nouv )
+int modify( char * filename, char id[], btc nouv )
 {
     int tr=0;
     btc b;
@@ -71,7 +71,7 @@ int modify( char * filename, char id, btc nouv )
     return tr;
 
 }
-int Delete(char * filename, char id)
+int Delete(char * filename, char id[])
 {
     int tr=0;
     btc b;
@@ -95,7 +95,7 @@ int Delete(char * filename, char id)
     rename("nouv.txt", filename);
     return tr;
 }
-btc search(char * filename, char id)
+btc search(char * filename, char id[])
 {
     btc b;
     int tr=0;
