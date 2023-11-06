@@ -1,0 +1,10 @@
+BD: BD.o main.o
+	gcc BD.o main.o -o BD -g
+
+main.o: main.c
+	gcc -c main.c -g
+
+BD.o: BD.c
+	gcc -c BD.c -g
+
+
